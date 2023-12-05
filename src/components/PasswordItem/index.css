@@ -1,0 +1,43 @@
+li {
+  border: 2px solid #94a3b8;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+  margin-right: 3%;
+  margin-bottom: 30px;
+}
+.icon {
+  width: 10%;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.para {
+  font-size: 10px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.star-img {
+  width: 70%;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.delete-img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
